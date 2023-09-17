@@ -46,7 +46,7 @@ namespace LocationHunter.API.Controllers
         public IActionResult deleteUser(int id)
         {
             _userService.DeleteUser(id);
-            return Ok("Başarıyla silndi.");
+            return Ok("Başarıyla silindi.");
         }
         
     }
